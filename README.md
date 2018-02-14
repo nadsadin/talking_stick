@@ -41,6 +41,13 @@ TalkingStick is built as a Rails Engine, and so follows those conventions.
     Add the following to your application's `assets/javascripts/application.js`:
 
     ```javascript
+    //= require jquery
+    //= require talking_stick/application
+    ```
+    for jquery3:
+    
+    ```javascript
+    //= require jquery3
     //= require talking_stick/application
     ```
 
